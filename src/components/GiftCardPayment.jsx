@@ -53,15 +53,15 @@ export default function GiftCardPayment(){
         ))}
       </div>
 
-      <div className="p-3 border rounded-lg bg-white flex items-center gap-3">
-        <div className="flex-1">
+      <div className="p-3 border rounded-lg bg-white flex flex-col sm:flex-row items-start sm:items-center gap-3">
+        <div className="flex-1 w-full">
           <div className="text-sm text-gray-700 font-medium">Destination email</div>
           <div className="text-xs text-gray-500">This is the email where the purchased gift card should be sent</div>
         </div>
 
-        <div className="flex items-center gap-2">
-          <input value={email} onChange={e=>setEmail(e.target.value)} className="p-2 border rounded-md text-sm font-mono" />
-          <button onClick={handleCopy} className="inline-flex items-center gap-2 px-3 py-2 rounded-md border hover:bg-gray-50">
+        <div className="flex items-center gap-2 w-full sm:w-auto">
+          <input value={email} onChange={e=>setEmail(e.target.value)} className="flex-1 min-w-0 p-2 border rounded-md text-sm font-mono w-full" />
+          <button onClick={handleCopy} className="inline-flex items-center gap-2 px-3 py-2 rounded-md border hover:bg-gray-50 whitespace-nowrap">
             {copied ? (
               <span className="text-sm text-green-600">Copied</span>
             ) : (
