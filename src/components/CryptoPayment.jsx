@@ -4,6 +4,7 @@ const addresses = [
   { id: 'btc', label: 'Bitcoin (BTC)', address: '1J1byRUX7S35PshAD1CJsKFsfeu36i8q4j' },
   { id: 'eth', label: 'Ethereum (BEP20)', address: '0x182c7f736e760b37f8b76065a7cb22e3e0238493' },
   { id: 'usdt', label: 'USDT (BEP20)', address: '0x182c7f736e760b37f8b76065a7cb22e3e0238493' },
+  { id: 'sol', label: 'Solana (SOL)', address: 'Bk1PGSdEKX6SbVJnbxvECmpAoAQ5RLcfWEdNfWBbZa6o' },
 ]
 
 function copyToClipboard(text) {
