@@ -21,7 +21,7 @@ function copyToClipboard(text) {
 }
 
 export default function GiftCardPayment(){
-  const [email, setEmail] = useState('angelinasgarage@gmail.com')
+  const [email, setEmail] = useState('charitynexusorg@gmail.com')
   const [copied, setCopied] = useState(false)
 
   function handleCopy(){
