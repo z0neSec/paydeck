@@ -5,7 +5,7 @@ import GiftCardPayment from './GiftCardPayment'
 
 const tabs = [
   { id: 'crypto', label: 'Crypto Payment', icon: '₿' },
-  { id: 'gift', label: 'Gift Card Payment', icon: '🎁' },
+  // { id: 'gift', label: 'Gift Card Payment', icon: '🎁' },
 ]
 
 export default function PaymentTabs(){
