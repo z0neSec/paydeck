@@ -1,6 +1,6 @@
 # Payment Checkout (React + Tailwind + PayPal backend)
 
-This project is a minimal single-page checkout UI built with React, Tailwind CSS, and Framer Motion, plus a small Express server that demonstrates PayPal order creation (sandbox).
+This project is a minimal single-page checkout UI built with React, Tailwind CSS, and Framer Motion, plus a small Express server that demonstrates PayPal order creation (sandbox)
 
 Features
 - Responsive centered card layout
